@@ -1,0 +1,43 @@
+Currency Converter
+
+Convert currencies using data from Yahoo! Financial.
+
+A simple Plasmoid created using PyQt and PyKDE4.
+
+Features:
+
+ - Select to and/or from the dropdown list and the converted amount will be updated.
+
+ - Change the amount to be converted and TAB or click outside the Amount field
+   and the result will be updated.
+
+ - Selected currencies and amount is saved between sessions.
+
+ - Refreshing selected convertion when no activity for a user defined period of time.
+
+ - Current/last conversion result is shown in the tool tip when docked in the panel.
+
+Dependencies:
+
+  Because I have only tried the Plasmoid on my own computer you may be able to use earlier versions.
+  Currency Converter needs at least KDE SC 4.5.
+
+  * python-kde4 v. 4.5.4
+  * python-qt4 v. 4.7.3
+  * plasma-scriptengine-python
+
+  Install the Plasmoid:
+
+  plasmapkg -i ./currency-converter.plasmoid
+
+  Or update it:
+
+  plasmapkg -o ./currency-converter.plasmoid
+
+  Or add it from "Add Widgets"=>"Install New Widgets"=>"Download New Plasma Widgets"
+
+Known Issues:
+
+  The number of items in the currency dropdowns are set to a hardcoded limit if
+  the Plasmoid is docked in the bottom panel:
+      https://bugs.kde.org/show_bug.cgi?id=219873
