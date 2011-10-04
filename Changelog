@@ -1,0 +1,49 @@
+Changelog:
+
+- 0.6
+  - The Plasmoid now finally docks in the panel using Plasma.PopupApplet.
+  - New icon! (cut'n'paste from other icons - hmmm).
+  - Only import required parts of the used modules. The functionalities such
+    as System Notifications and Network monitoring are now separate classes
+    which makes them reusable in my other Plasmoids.
+  - Fail gracefully on wrong KDE SC version.
+  - Fix for not detecting network on some distributions.
+  - Current/last conversion result is now shown in the tool tip when docked in the panel.
+  - Removed collapse/expand because it didn't work properly and current result can be seen in tooltip.
+  - Added context menu for updating current conversion.
+  - Added configuration for refresh/update interval.
+  - Improved KIO handling.
+  - Notification on network errors.
+  - Much improved error handling when no network connection using Solid. The Plasmoid
+    is now disabled until a connection is established instead of just giving up and dying ;-)
+  - Now using the KDE Currency classes (Only works from KDE SC 4.4.4).
+  - Showing Currency name first instead of currency code to make the easier to find in the list.
+
+- 0.5
+  - Right align labels according to: http://techbase.kde.org/Projects/Usability/HIG/Form_Label_Alignment
+  - Added missing Mexican and Chilean Pesos.
+  - Added tooltip over the logo to show last time updated.
+  - Added some checks for non-accessible methods.
+
+- 0.4
+  - Refreshing selected conversion when no activity for 15 minutes.
+  - TransferJobs are no longer shown in KDE Notifier.
+  - Fixed layout issues in the title header.
+  - Added "Swap currencies" button.
+
+- 0.3
+  - Test for network connection.
+  - Hide/show controls. Added the ability to expand or collapse the currency combo boxes if you
+    just want to monitor the exchange rate between two fixed currencies.
+
+- 0.2
+  - Fixed problem where ComboBox dropdowns were below other widgets.
+  - Code refactoring and cleanup.
+  - Translations automated. For now only Danish translations exists.
+  - Amount validation is localized (in a very simple way - may break in some locales?).
+  - Currency symbols instead of abbreviations (only £, $ and € for now).
+  - Use KIO when getting currency rate to not block the GUI.
+  - Added Clear Button to Amount.
+
+- 0.1
+  - Initial version

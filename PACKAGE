@@ -1,0 +1,9 @@
+#!/bin/bash
+DIR=`dirname $BASH_SOURCE`
+TITLE=`grep "^Name=" $DIR/metadata.desktop|cut -d "=" -f 2`
+NAME=`grep "^X-KDE-PluginInfo-Name=" $DIR/metadata.desktop|cut -d "=" -f 2`
+VERSION=`grep "^X-KDE-PluginInfo-Version=" $DIR/metadata.desktop|cut -d "=" -f 2`
+AUTHOR=`grep "^X-KDE-PluginInfo-Author=" $DIR/metadata.desktop|cut -d "=" -f 2`
+EMAIL=`grep "^X-KDE-PluginInfo-Email=" $DIR/metadata.desktop|cut -d "=" -f 2`
+WEBSITE=`grep "^X-KDE-PluginInfo-Website=" $DIR/metadata.desktop|cut -d "=" -f 2`
+echo $TITLE $NAME-$VERSION

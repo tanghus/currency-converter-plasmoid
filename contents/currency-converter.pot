@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Thomas Olsen
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: currency-converter 0.6\n"
+"Report-Msgid-Bugs-To: tanghus+currency-converter-plasmoid@gmail.com\n"
+"POT-Creation-Date: 2011-06-18 12:36+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: code/base.py:57
+msgid "You need at least KDE SC version "
+msgstr ""
+
+#: code/currency_converter_config_ui.py:57
+msgid "Form"
+msgstr ""
+
+#: code/currency_converter_config_ui.py:58
+msgid "Update interval in minutes."
+msgstr ""
+
+#: code/currency_converter_config_ui.py:59
+msgid "Update interval"
+msgstr ""
+
+#: code/currency_converter_config_ui.py:60
+msgid " minutes"
+msgstr ""
+
+#: code/currency_converter_config_ui.py:61
+msgid "If the interval is set to '0' no regular updates will take place."
+msgstr ""
+
+#: code/CurrencyConverter.py:90
+msgid "Swap currencies"
+msgstr ""
+
+#: code/CurrencyConverter.py:96
+msgid "Currency Converter"
+msgstr ""
+
+#: code/CurrencyConverter.py:105
+msgid "From:"
+msgstr ""
+
+#: code/CurrencyConverter.py:114
+msgid "To:"
+msgstr ""
+
+#: code/CurrencyConverter.py:124
+msgid "Amount:"
+msgstr ""
+
+#: code/CurrencyConverter.py:156
+#, python-format
+msgid "Data from <a href=\"http://finance.yahoo.com/currency-converter\"><img src=\"%s\"</a>"
+msgstr ""
+
+#: code/CurrencyConverter.py:177
+msgctxt "@item currency name and currency code"
+msgid "%1 (%2)"
+msgstr ""
+
+#: code/CurrencyConverter.py:325
+#, python-format
+msgid "Last updated: %s"
+msgstr ""
+
+#: code/main.py:71 code/main.py:192
+msgid "Waiting for network connection."
+msgstr ""
+
+#: code/main.py:92
+msgid "General"
+msgstr ""
+
+#: code/main.py:128
+msgid "Update now"
+msgstr ""
+
+#: code/main.py:152
+#, python-format
+msgctxt "From code From Amount = To code To Amount - Last updated"
+msgid "%s %s = %s %s<br /><br />Last updated:<br />%s"
+msgstr ""
+
+#: code/Notifier.py:70
+#, python-format
+msgid "KDE directory '%s' doesn't exist!"
+msgstr ""

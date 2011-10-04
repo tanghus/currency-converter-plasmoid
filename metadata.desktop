@@ -1,0 +1,27 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Currency Converter
+Name[da]=Valutaomregner
+Name[de]=Währungkonverter
+Name[el]=Μετατροπέας νομισμάτων
+Name[fr]=Convertisseur de devises
+Name[no]=Valutakalkulator
+Name[se]=Valutaomvandlare
+Comment=Convert currencies using data from Yahoo! Finance
+Comment[da]=Konverter valutaer ved hjælp af data fra Yahoo! Finans
+Comment[el]=Μετατροπή νομισμάτων από το Yahoo! Finance
+Type=Service
+ServiceTypes=Plasma/Applet,Plasma/PopupApplet
+Icon=currency-converter
+X-Plasma-API=python
+X-Plasma-MainScript=code/main.py
+X-Plasma-DefaultSize=270,170
+X-KDE-PluginInfo-Author=Thomas Olsen
+X-KDE-PluginInfo-Email=tanghus+currency-converter-plasmoid@gmail.com
+X-KDE-PluginInfo-Name=currency-converter
+X-KDE-PluginInfo-Version=0.6
+X-KDE-PluginInfo-Website=http://tanghus.wordpress.com/currency-converter
+X-KDE-PluginInfo-Category=Utilities
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true

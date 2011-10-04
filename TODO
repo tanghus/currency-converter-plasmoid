@@ -1,0 +1,35 @@
+Currency Converter
+
+
+TODO:
+
+ - Translations. Currently only Danish translations.
+
+ - Check version upgrade process: Is the config persistent?
+
+ - Credits label link doesn't launch web site.
+
+ - Dates aren't localized.
+
+ - Send notifications instead of showMessage.
+
+ - Better error detection on web service query.
+
+ - Create a Currency Converter Data Engine.
+
+ - Connect/emit settingsChanged in Settings.
+
+ - Show the most used currencies at top of list.
+
+IDEAS (comments are welcome):
+
+ - Monitor currencies and notify on (...)
+
+ - Offer other services than Yahoo! Finance.
+
+
+KNOWN ISSUES:
+
+ - In some installations Solid mistakenly reports no network connection.
+   (For now this is fixed with a hack that interprets Status.Unknown as being connected)
+   https://bugs.kde.org/show_bug.cgi?id=244516

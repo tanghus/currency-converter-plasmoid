@@ -1,0 +1,19 @@
+[Global]
+IconName=currency-converter
+Name=Currency Converter
+Comment=Currency Converter Plasma Widget
+
+[Event/waiting-for-network]
+IconName=dialog-error
+Name=Waiting for network
+Name[da]=Venter på netværk
+Comment=Waiting for a network connection to be established
+Comment[da]=Venter på at der bliver oprettet en netværksforbindelse
+Action=Popup
+
+[Event/networkerror]
+#IconName=dialog-information
+Name=Network error
+Name[da]=Netværksfejl
+Comment=There was a network error.
+Action=Popup
