@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Thomas Olsen
+# Copyright (C) 2011-13 Thomas Olsen
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Thomas Tanghus <thomas@tanghus.net>, 2013.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: currency-converter 0.6\n"
-"Report-Msgid-Bugs-To: tanghus+currency-converter-plasmoid@gmail.com\n"
+"Report-Msgid-Bugs-To: thomas@tanghus.net\n"
 "POT-Creation-Date: 2011-06-18 12:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"

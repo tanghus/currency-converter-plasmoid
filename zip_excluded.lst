@@ -1,5 +1,8 @@
 .svn/*
+.git*
+.kateproject*
 zip_excluded.lst
+PACKAGE
 make_plasmoid_pkg.sh
 contents/.svn/*
 contents/*~
