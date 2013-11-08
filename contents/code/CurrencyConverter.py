@@ -27,8 +27,8 @@
 
 from urllib import urlencode
 from datetime import datetime
-from PyQt4.QtCore import  Qt, pyqtSignal, QObject, QVariant, QString, QSize, QTimer, SIGNAL
-from PyQt4.QtGui import QGraphicsWidget, QGraphicsGridLayout, QGraphicsLinearLayout, QSizePolicy
+from PyQt4.QtCore import Qt, pyqtSignal, QObject, QVariant, QString, QSize, QTimer, SIGNAL
+from PyQt4.QtGui import QDoubleValidator, QGraphicsWidget, QGraphicsGridLayout, QGraphicsLinearLayout, QSizePolicy
 from PyKDE4.kdecore import KGlobal, i18n, i18nc, KCurrencyCode, KDateTime, KUrl
 from PyKDE4.kdeui import KIcon, KDoubleValidator
 from PyKDE4.kio import KIO
