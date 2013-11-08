@@ -125,9 +125,9 @@ class CurrencyConverter(QGraphicsWidget):
 
         self.amount = Plasma.LineEdit()
         self.amount.setClearButtonShown(True)
-        self.amount_validator = KDoubleValidator(self.amount.nativeWidget())
-        if KGlobal.locale().decimalSymbol() == ",":
-            self.amount_validator.setAcceptLocalizedNumbers(True)
+        self.amount_validator = QDoubleValidator(self.amount.nativeWidget())
+        #if KGlobal.locale().decimalSymbol() == ",":
+        #    self.amount_validator.setAcceptLocalizedNumbers(True)
         self.amount.nativeWidget().setValidator(self.amount_validator)
         print "Default amount:", self.def_amount
         self.amount.setText(self.def_amount)
