@@ -1,4 +1,6 @@
 Changelog:
+- 0.6.1
+  - Use QDoubleValidator instead of KDoubleValidator which has been removed from pykde.
 
 - 0.6
   - The Plasmoid now finally docks in the panel using Plasma.PopupApplet.
