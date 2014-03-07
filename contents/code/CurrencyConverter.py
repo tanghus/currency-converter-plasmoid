@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# kate: space-indent on; tab-width 4; indent-width 4; indent-mode python; backspace-indents; encoding utf-8; line-numbers on; remove-trailing-space on;
+# kate: space-indent on; tab-width 4; indent-width 4; indent-mode python; backspace-indents; encoding utf-8; line-numbers on; remove-trailing-space modified;
 #
 #   Copyright 2009, 2010 Thomas Olsen <tanghus@gmail.com>
 #
